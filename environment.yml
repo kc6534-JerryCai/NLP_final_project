@@ -1,0 +1,18 @@
+name: nlp-final-assignment
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - openpyxl
+  - requests
+  - pip
+  - pip:
+      - python-dotenv
+      - torch>=2.7,<3
+      - transformers>=4.52,<5
+      - sentencepiece>=0.2,<1
+      - safetensors>=0.5,<1
+      - scikit-learn>=1.6,<2
+      - tqdm>=4.67,<5
+      - pyyaml>=6,<7

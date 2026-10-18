@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-15T23:19:44.555908+00:00",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "none",
+  "service_mode": "standard_responses_api",
+  "batch_api_used": false,
+  "prompt_sha256": "830fac8b62d61e9b58d7664fadfa0681fd812aa1e1664c61ea5914acdf17e05f",
+  "schema_sha256": "e17ae383532c8debc0a8c5ec905144818b8eda055f3176295672bc94e53bb6bc",
+  "selection_manifest_sha256": "c3bf52f3db0c325c6a6a80dd5b8df5c34059c4e8448291bb1eb32b973e61d306",
+  "selection_seed": "media-indicator-v2"
+}

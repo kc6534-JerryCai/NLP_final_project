@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-10-15T16:24:03.547369+00:00",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "none",
+  "dataset": "C:\\Users\\Jerry Cai\\Desktop\\NLP_Final_Assignment\\data\\clean\\news_articles.csv",
+  "prompt_sha256": "3c39216772dcdcc46ce449972ab1a6740ef9aa4a1a8f25be9d5da8b89fe3ecb2",
+  "schema_sha256": "21b3128edfde0c56b3b63f0bec54632161dc7c9b6a04143c6354db2c9fe11ad9",
+  "selection_seed": "media-indicator-v1"
+}

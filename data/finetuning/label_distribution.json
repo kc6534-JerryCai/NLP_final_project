@@ -1,0 +1,174 @@
+{
+  "all": {
+    "rows": 5000,
+    "label_relevance": {
+      "relevant": 2972,
+      "irrelevant": 1737,
+      "uncertain": 291
+    },
+    "valid": {
+      "topic": 2970,
+      "primary_topic": 2969,
+      "tone": 2970,
+      "joint": 2970,
+      "primary_joint": 2969
+    },
+    "topics_positive_support": {
+      "prices_inflation": 364,
+      "employment": 785,
+      "income_purchasing_power": 313,
+      "housing": 352,
+      "consumption": 215,
+      "growth_outlook": 896,
+      "economic_policy": 1620,
+      "household_finance": 493
+    },
+    "overall_tone_support": {
+      "positive": 291,
+      "negative": 1381,
+      "neutral": 466,
+      "mixed": 578,
+      "insufficient_information": 254
+    },
+    "primary_topic_support": {
+      "prices_inflation": 141,
+      "employment": 486,
+      "income_purchasing_power": 146,
+      "housing": 269,
+      "consumption": 87,
+      "growth_outlook": 377,
+      "economic_policy": 1133,
+      "household_finance": 224,
+      "multiple": 106
+    }
+  },
+  "train": {
+    "rows": 4000,
+    "label_relevance": {
+      "relevant": 2376,
+      "irrelevant": 1387,
+      "uncertain": 237
+    },
+    "valid": {
+      "topic": 2374,
+      "primary_topic": 2374,
+      "tone": 2374,
+      "joint": 2374,
+      "primary_joint": 2374
+    },
+    "topics_positive_support": {
+      "prices_inflation": 290,
+      "employment": 628,
+      "income_purchasing_power": 250,
+      "housing": 281,
+      "consumption": 171,
+      "growth_outlook": 717,
+      "economic_policy": 1296,
+      "household_finance": 393
+    },
+    "overall_tone_support": {
+      "positive": 233,
+      "negative": 1105,
+      "neutral": 372,
+      "mixed": 462,
+      "insufficient_information": 202
+    },
+    "primary_topic_support": {
+      "prices_inflation": 110,
+      "employment": 397,
+      "income_purchasing_power": 119,
+      "housing": 218,
+      "consumption": 70,
+      "growth_outlook": 304,
+      "economic_policy": 892,
+      "household_finance": 178,
+      "multiple": 86
+    }
+  },
+  "validation": {
+    "rows": 500,
+    "label_relevance": {
+      "uncertain": 24,
+      "relevant": 298,
+      "irrelevant": 178
+    },
+    "valid": {
+      "topic": 298,
+      "primary_topic": 298,
+      "tone": 298,
+      "joint": 298,
+      "primary_joint": 298
+    },
+    "topics_positive_support": {
+      "prices_inflation": 37,
+      "employment": 78,
+      "income_purchasing_power": 31,
+      "housing": 36,
+      "consumption": 22,
+      "growth_outlook": 90,
+      "economic_policy": 162,
+      "household_finance": 50
+    },
+    "overall_tone_support": {
+      "positive": 29,
+      "negative": 138,
+      "neutral": 47,
+      "mixed": 58,
+      "insufficient_information": 26
+    },
+    "primary_topic_support": {
+      "prices_inflation": 16,
+      "employment": 45,
+      "income_purchasing_power": 10,
+      "housing": 27,
+      "consumption": 9,
+      "growth_outlook": 36,
+      "economic_policy": 122,
+      "household_finance": 23,
+      "multiple": 10
+    }
+  },
+  "test": {
+    "rows": 500,
+    "label_relevance": {
+      "relevant": 298,
+      "irrelevant": 172,
+      "uncertain": 30
+    },
+    "valid": {
+      "topic": 298,
+      "primary_topic": 297,
+      "tone": 298,
+      "joint": 298,
+      "primary_joint": 297
+    },
+    "topics_positive_support": {
+      "prices_inflation": 37,
+      "employment": 79,
+      "income_purchasing_power": 32,
+      "housing": 35,
+      "consumption": 22,
+      "growth_outlook": 89,
+      "economic_policy": 162,
+      "household_finance": 50
+    },
+    "overall_tone_support": {
+      "positive": 29,
+      "negative": 138,
+      "neutral": 47,
+      "mixed": 58,
+      "insufficient_information": 26
+    },
+    "primary_topic_support": {
+      "prices_inflation": 15,
+      "employment": 44,
+      "income_purchasing_power": 17,
+      "housing": 24,
+      "consumption": 8,
+      "growth_outlook": 37,
+      "economic_policy": 119,
+      "household_finance": 23,
+      "multiple": 10
+    }
+  }
+}

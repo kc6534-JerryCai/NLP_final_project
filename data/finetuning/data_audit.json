@@ -1,0 +1,23 @@
+{
+  "row_count": 5000,
+  "unique_article_ids": 5000,
+  "unknown_topics": {},
+  "unknown_tones": {},
+  "topic_label_policy": "topic_valid is true only for GPT-relevant rows with at least one topic; relevance-filtered empty lists are masked",
+  "tone_label_policy": "overall_tone=None is masked and is never converted to neutral",
+  "input_feature_policy": "model input is constructed only from headline and abstract",
+  "seed": 42,
+  "requested_split_sizes": {
+    "train": 4000,
+    "validation": 500,
+    "test": 500
+  },
+  "actual_split_sizes": {
+    "train": 4000,
+    "validation": 500,
+    "test": 500
+  },
+  "original_4500_500_split_found": false,
+  "duplicate_group_count": 4999,
+  "no_cross_split_duplicate_groups": true
+}

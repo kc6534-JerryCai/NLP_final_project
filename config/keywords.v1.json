@@ -1,0 +1,111 @@
+{
+  "version": "1.0.0",
+  "frozen_at": "2026-10-14",
+  "notes": "Pre-registered retrieval dictionary. Ambiguous standalone words are represented only in contextual phrases.",
+  "groups": {
+    "A": {
+      "label": "overall_economy_and_growth",
+      "terms": [
+        "economy", "economic conditions", "economic outlook", "economic growth",
+        "GDP", "gross domestic product", "economic expansion", "economic recovery",
+        "economic slowdown", "recession", "soft landing", "hard landing"
+      ]
+    },
+    "B": {
+      "label": "employment_and_labor_market",
+      "terms": [
+        "employment", "unemployment", "job market", "labor market", "labour market",
+        "job growth", "job gains", "job creation", "hiring", "job openings", "payrolls",
+        "layoffs", "job cuts", "job losses", "jobless claims",
+        "labor force participation", "underemployment"
+      ]
+    },
+    "C": {
+      "label": "inflation_prices_and_cost_of_living",
+      "terms": [
+        "inflation", "deflation", "disinflation", "consumer prices", "price level",
+        "price increases", "falling prices", "rising prices", "price stability",
+        "cost of living", "cost-of-living", "purchasing power", "CPI",
+        "consumer price index", "PCE", "personal consumption expenditures",
+        "grocery prices", "food prices", "gasoline prices", "gas prices", "energy prices"
+      ]
+    },
+    "D": {
+      "label": "wages_income_and_household_finance",
+      "terms": [
+        "wages", "wage growth", "wage gains", "wage stagnation", "real wages",
+        "household income", "personal income", "disposable income", "real income",
+        "household finances", "personal finances", "financial well-being",
+        "financial wellbeing", "financial strain", "financial hardship",
+        "household savings", "savings rate", "living paycheck to paycheck"
+      ]
+    },
+    "E": {
+      "label": "consumption_buying_conditions_and_durables",
+      "terms": [
+        "consumer spending", "household spending", "consumption expenditure",
+        "retail sales", "consumer demand", "buying conditions", "purchasing intentions",
+        "discretionary spending", "durable goods", "car sales", "auto sales", "vehicle prices"
+      ]
+    },
+    "F": {
+      "label": "housing_and_affordability",
+      "terms": [
+        "housing affordability", "affordable housing", "housing costs", "home prices",
+        "house prices", "homeownership", "housing rent", "rent costs", "rents",
+        "rental costs", "mortgage rates", "mortgage payments", "housing market",
+        "housing eviction", "home foreclosure"
+      ]
+    },
+    "G": {
+      "label": "household_debt_credit_and_interest_burden",
+      "terms": [
+        "household debt", "consumer debt", "credit card debt", "credit card rates",
+        "student loans", "auto loans", "debt payments", "debt service", "debt burden",
+        "loan delinquency", "credit delinquency", "loan default", "debt default",
+        "borrowing costs", "credit availability", "lending standards", "interest rates"
+      ]
+    },
+    "H": {
+      "label": "household_economic_policy_and_uncertainty",
+      "terms": [
+        "economic policy uncertainty", "fiscal policy", "monetary policy", "Federal Reserve",
+        "interest rate cuts", "interest rate hikes", "tax cuts", "tax increases", "tariffs",
+        "trade policy", "government spending", "unemployment benefits", "stimulus payments",
+        "government shutdown"
+      ]
+    }
+  },
+  "direct_sentiment": {
+    "label": "direct_consumer_sentiment_coverage",
+    "terms": [
+      "consumer sentiment", "consumer confidence", "University of Michigan survey",
+      "Michigan consumer sentiment", "Index of Consumer Sentiment", "consumer expectations",
+      "Conference Board consumer confidence"
+    ]
+  },
+  "us_markers": [
+    "United States", "U.S.", "U.S.A.", "US economy", "American economy",
+    "American consumers", "American households", "Americans", "Federal Reserve",
+    "Bureau of Labor Statistics", "Bureau of Economic Analysis", "Labor Department",
+    "Commerce Department", "Treasury Department"
+  ],
+  "us_geo_markers": [
+    "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut",
+    "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa",
+    "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan",
+    "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire",
+    "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio",
+    "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota",
+    "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia",
+    "Wisconsin", "Wyoming", "District of Columbia", "Washington, D.C.", "Puerto Rico",
+    "New York City", "Los Angeles", "Chicago", "Houston", "Philadelphia", "Phoenix",
+    "San Francisco", "Boston", "Miami", "Atlanta", "Seattle", "Detroit"
+  ],
+  "foreign_markers": [
+    "United Kingdom", "Britain", "British economy", "England", "Scotland", "Wales",
+    "European Union", "eurozone", "Canada", "Canadian economy", "Australia",
+    "Australian economy", "China", "Chinese economy", "Japan", "Japanese economy",
+    "India", "Indian economy", "Germany", "German economy", "France", "French economy"
+  ]
+}

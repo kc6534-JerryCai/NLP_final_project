@@ -1,0 +1,244 @@
+{
+  "type": "object",
+  "properties": {
+    "article_id": {
+      "type": "string"
+    },
+    "relevance": {
+      "type": "string",
+      "enum": [
+        "relevant",
+        "irrelevant",
+        "uncertain"
+      ]
+    },
+    "us_scope": {
+      "type": "string",
+      "enum": [
+        "explicit",
+        "implicit",
+        "not_us",
+        "unclear"
+      ]
+    },
+    "relevance_evidence": {
+      "type": "string"
+    },
+    "primary_topic": {
+      "type": "string",
+      "enum": [
+        "prices_inflation",
+        "employment",
+        "income_purchasing_power",
+        "housing",
+        "consumption",
+        "growth_outlook",
+        "economic_policy",
+        "household_finance",
+        "multiple",
+        "none"
+      ]
+    },
+    "overall_tone": {
+      "anyOf": [
+        {
+          "type": "string",
+          "enum": [
+            "positive",
+            "negative",
+            "neutral",
+            "mixed",
+            "insufficient_information"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "overall_evidence": {
+      "type": "string"
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string",
+            "enum": [
+              "prices_inflation",
+              "employment",
+              "income_purchasing_power",
+              "housing",
+              "consumption",
+              "growth_outlook",
+              "economic_policy",
+              "household_finance"
+            ]
+          },
+          "condition_tone": {
+            "type": "string",
+            "enum": [
+              "positive",
+              "negative",
+              "neutral",
+              "mixed",
+              "insufficient_information"
+            ]
+          },
+          "time_focus": {
+            "type": "string",
+            "enum": [
+              "current_or_past",
+              "future",
+              "both",
+              "unclear"
+            ]
+          },
+          "evidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "topic",
+          "condition_tone",
+          "time_focus",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "frames": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "frame": {
+            "type": "string",
+            "enum": [
+              "household_hardship",
+              "economic_resilience",
+              "unequal_outcomes",
+              "macro_household_disconnect",
+              "future_risk"
+            ]
+          },
+          "evidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "frame",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "political_attribution": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "present",
+            "not_observed",
+            "uncertain",
+            "not_assessed"
+          ]
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "target": {
+                "type": "string"
+              },
+              "attribution_type": {
+                "type": "string",
+                "enum": [
+                  "credit",
+                  "blame",
+                  "mixed",
+                  "causal_without_evaluation"
+                ]
+              },
+              "claim_source": {
+                "type": "string",
+                "enum": [
+                  "article_narration",
+                  "quoted_or_attributed_source",
+                  "unclear"
+                ]
+              },
+              "evidence": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "target",
+              "attribution_type",
+              "claim_source",
+              "evidence"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "status",
+        "items"
+      ],
+      "additionalProperties": false
+    },
+    "factual_calibration": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "not_assessed"
+          ]
+        }
+      },
+      "required": [
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "needs_review": {
+      "type": "boolean"
+    },
+    "review_flags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "missing_abstract",
+          "truncated_or_corrupted",
+          "unclear_us_scope",
+          "headline_abstract_conflict",
+          "ambiguous_tone",
+          "ambiguous_attribution"
+        ]
+      }
+    }
+  },
+  "required": [
+    "article_id",
+    "relevance",
+    "us_scope",
+    "relevance_evidence",
+    "primary_topic",
+    "overall_tone",
+    "overall_evidence",
+    "topics",
+    "frames",
+    "political_attribution",
+    "factual_calibration",
+    "needs_review",
+    "review_flags"
+  ],
+  "additionalProperties": false
+}

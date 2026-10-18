@@ -1,0 +1,45 @@
+{
+  "endpoint": "https://financialmodelingprep.com/stable/news/general-latest",
+  "requested_start": "2025-10-16",
+  "requested_end": "2026-10-16",
+  "generated_at_utc": "2026-10-17T02:27:30.380333+00:00",
+  "fetched_pages": 106,
+  "fetched_items_before_filtering": 25793,
+  "unique_matching_articles": 5275,
+  "topic_counts_including_multi_topic_articles": {
+    "inflation_rate": 3378,
+    "interest_rate": 2546,
+    "unemployment_rate": 336
+  },
+  "earliest_matching_article": "2025-10-16",
+  "latest_matching_article": "2026-10-16",
+  "truncated_windows": [],
+  "topic_keywords": {
+    "inflation_rate": [
+      "inflation",
+      "consumer price index",
+      "CPI",
+      "PCE price",
+      "price pressure"
+    ],
+    "unemployment_rate": [
+      "unemployment",
+      "jobless rate",
+      "jobless claims",
+      "unemployment claims"
+    ],
+    "interest_rate": [
+      "interest rate",
+      "federal funds rate",
+      "fed funds rate",
+      "policy rate",
+      "rate cut",
+      "rate hike"
+    ]
+  },
+  "notes": [
+    "Filtering searches each article's title and text fields.",
+    "An article can be assigned to more than one topic.",
+    "The API key is not included in any output file."
+  ]
+}

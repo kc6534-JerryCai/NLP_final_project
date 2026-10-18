@@ -1,0 +1,71 @@
+{
+  "seed": 42,
+  "source_annotations": "data/annotations/gpt6_luna_compact_10000/annotations_10000.jsonl",
+  "data_dir": "data/finetuning_compact_v2",
+  "output_dir": "outputs/finetuning_compact_v2",
+  "models_dir": "models",
+  "split_sizes": {
+    "train": 4500,
+    "validation": 500,
+    "test": 600,
+    "unused": 62
+  },
+  "topic_labels": [
+    "cost_of_living_income",
+    "labor_market",
+    "household_economy",
+    "macro_growth",
+    "economic_policy"
+  ],
+  "tone_labels": ["-1", "0", "1"],
+  "near_duplicate": {
+    "minhash_permutations": 64,
+    "bands": 16,
+    "jaccard_threshold": 0.82,
+    "min_length_ratio": 0.7
+  },
+  "token_length": {
+    "candidate_lengths": [128, 192, 256, 320, 384, 512],
+    "max_truncation_fraction": 0.05
+  },
+  "finbert_head": {
+    "base_model": "ProsusAI/finbert",
+    "learning_rates": [0.00005, 0.0001, 0.0002],
+    "effective_batch_size": 32,
+    "per_device_batch_size": 16,
+    "eval_batch_size": 32,
+    "epochs": 5,
+    "early_stopping_patience": 2,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_length": "auto"
+  },
+  "finbert_full": {
+    "base_model": "ProsusAI/finbert",
+    "encoder_learning_rates": [0.00001, 0.00002, 0.00003],
+    "head_learning_rate": 0.0001,
+    "effective_batch_size": 32,
+    "per_device_batch_size": 4,
+    "eval_batch_size": 16,
+    "epochs": 5,
+    "early_stopping_patience": 2,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_length": "auto"
+  },
+  "t5": {
+    "base_model": "google/flan-t5-base",
+    "learning_rates": [0.00003, 0.0001],
+    "effective_batch_size": 16,
+    "per_device_batch_size": 1,
+    "eval_batch_size": 4,
+    "epochs": 5,
+    "early_stopping_patience": 2,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_source_length": "auto",
+    "max_target_length": 32,
+    "generation_max_new_tokens": 32,
+    "gradient_checkpointing": true
+  }
+}

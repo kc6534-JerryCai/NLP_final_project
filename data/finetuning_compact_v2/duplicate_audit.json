@@ -1,0 +1,20 @@
+{
+  "method": "exact normalized title+abstract plus 64-permutation MinHash candidates and word-trigram Jaccard",
+  "candidate_pair_count": 73,
+  "near_duplicate_pair_count": 2,
+  "multirow_group_count": 1,
+  "rows_in_multirow_groups": 3,
+  "largest_group_size": 3,
+  "near_duplicate_pairs": [
+    {
+      "left_article_id": "nyt://article/99cc78de-95fc-5cf7-b749-8f874f7d57e7",
+      "right_article_id": "nyt://article/260c3afc-82c8-5307-8a5e-84a1157ab791",
+      "jaccard": 0.887324
+    },
+    {
+      "left_article_id": "nyt://article/260c3afc-82c8-5307-8a5e-84a1157ab791",
+      "right_article_id": "nyt://article/fd771bdf-e659-5896-9373-84a1c30b8cae",
+      "jaccard": 0.849315
+    }
+  ]
+}

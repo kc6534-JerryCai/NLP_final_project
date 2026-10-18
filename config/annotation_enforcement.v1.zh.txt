@@ -1,0 +1,11 @@
+十二、机器校验补充规则
+
+以下规则只用于明确前述定义和保证批量输出可校验，不改变任何标签含义：
+
+1. relevance_evidence、overall_evidence、主题 evidence、框架 evidence 和归因 evidence 中的每一个非空值，都必须是 headline 或 abstract 中一个连续且逐字相同的子字符串。不要自行添加引号，不要用省略号、方括号或其他符号拼接不连续片段。mixed 需要两面证据时，选择同时覆盖两面的最短连续原文；规则允许时可以超过 25 个英文词。
+2. us_scope 与 relevance 分开判断。只要文本明确写出 United States、U.S.、American、美国州或城市、美国联邦机构等美国范围，us_scope 就不能是 not_us。文章可以 relevance = irrelevant 同时 us_scope = explicit。
+3. relevance = relevant 时，topics 至少包含一个主题，primary_topic 不能是 none，overall_tone 不能是 null，political_attribution.status 不能是 not_assessed。若无法识别任何实质经济主题，不要输出 relevant。
+4. political_attribution 的 target 只能是政府、政治人物、公共机构或政策。公司、市场、私人组织、笼统的 “we” 或没有明确所指的代词不能作为 target。政治标签、人物名称或政策名称与经济结果同时出现不等于因果归因；必须有文本明确表达的因果或责任联系。
+5. macro_household_disconnect 必须同时包含宏观经济表现和家庭实际处境或主观感受，并明确形成反差。股票市场与宏观经济之间的反差不属于该框架。
+6. household_hardship 必须明确涉及家庭或个人难以承担生活开支、满足基本需求、维持收支平衡或因此被迫削减支出。一般裁员、工资低或工作条件差本身不自动构成该框架。
+7. unequal_outcomes 必须明确比较至少两个群体，或明确说明某一群体受到不成比例的影响。只描述一个群体的处境不符合该框架。

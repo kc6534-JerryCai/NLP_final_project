@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-10-15T23:21:08.381205+00:00",
+  "model": "gpt-6-luna",
+  "requested_unique": 200,
+  "requested_blind_repeats": 50,
+  "successful_unique": 200,
+  "failed_unique": 0,
+  "successful_repeats": 50,
+  "failed_repeats": 0,
+  "relevance": {
+    "irrelevant": 81,
+    "relevant": 115,
+    "uncertain": 4
+  },
+  "primary_topic_relevant_only": {
+    "cost_of_living_income": 11,
+    "economic_policy": 56,
+    "household_economy": 16,
+    "labor_market": 21,
+    "macro_growth": 11
+  },
+  "tone_relevant_only": {
+    "-1": 41,
+    "0": 67,
+    "1": 7
+  },
+  "needs_review": {
+    "False": 182,
+    "True": 18
+  },
+  "validation_issues": {
+    "response_trailing_text": 1,
+    "topic_evidence_not_exact_substring": 6
+  },
+  "blind_repeat_agreement": {
+    "paired": 50,
+    "relevance": {
+      "compared": 50,
+      "agreed": 47,
+      "rate": 0.94
+    },
+    "primary_topic_when_both_relevant": {
+      "compared": 23,
+      "agreed": 23,
+      "rate": 1.0
+    },
+    "tone_when_both_relevant": {
+      "compared": 23,
+      "agreed": 23,
+      "rate": 1.0
+    },
+    "full_label_tuple": {
+      "compared": 50,
+      "agreed": 47,
+      "rate": 0.94
+    }
+  },
+  "usage_all_successes": {
+    "input_tokens": 328379,
+    "output_tokens": 22150,
+    "total_tokens": 350529,
+    "cached_tokens": 298421,
+    "cache_write_tokens": 29208
+  },
+  "usage_unique_only": {
+    "input_tokens": 262794,
+    "output_tokens": 17894,
+    "total_tokens": 280688,
+    "cached_tokens": 232986,
+    "cache_write_tokens": 29208
+  },
+  "projected_usage_remaining_9800": {
+    "input_tokens": 12876906,
+    "output_tokens": 876806,
+    "total_tokens": 13753712,
+    "cached_tokens": 11416314,
+    "cache_write_tokens": 1431192
+  }
+}

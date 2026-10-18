@@ -1,0 +1,8 @@
+{
+  "prepared_at": "2026-10-15T16:24:55.982754+00:00",
+  "requests": 5000,
+  "bytes": 118295779,
+  "input_file_sha256": "3c2feadaa6ebc99dbba07eac14b37978017cefde826d585e156c6a0d4f5b2c21",
+  "prompt_sha256": "3c39216772dcdcc46ce449972ab1a6740ef9aa4a1a8f25be9d5da8b89fe3ecb2",
+  "model": "gpt-6-luna"
+}

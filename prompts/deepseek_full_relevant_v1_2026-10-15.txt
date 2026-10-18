@@ -1,0 +1,32 @@
+【DeepSeek 附加任务；前面的 GPT 原始规则保持不变】
+
+本次输入来自规则初筛的 relevant 数据池，但仍须严格按前面的 GPT 原始规则重新判断 relevance。primary_topic 与 tone 必须严格沿用前面 GPT 原始 prompt 的定义、边界和证据规则；不得自行改写类别含义。除这些相同字段外，再标注 frames 与 factual_calibration。最终只输出当前 JSON schema 要求的字段。
+
+当 relevance 不是 relevant 时，严格执行前面的 GPT 原始规则：primary_topic 与 tone 为 null，topic_evidence 与 tone_evidence 为空字符串；同时 frames 为空数组，factual_calibration 为 not_assessable。
+
+一、frames（可多选，也可为空）
+
+- household_hardship：家庭或个人难以负担生活开支、满足基本需求、维持收支平衡，或被迫削减支出。
+- economic_resilience：文章突出经济、就业、消费或家庭财务在冲击下仍具韧性或好于预期。
+- unequal_outcomes：明确比较至少两个群体，或指出某群体受到不成比例影响。
+- macro_household_disconnect：明确对比宏观经济表现与家庭实际处境或主观感受。
+- future_risk：文章以未来可能发生的实质经济风险或下行情景为主要组织框架；普通不确定性不自动算。
+
+每个 frame 的 evidence 必须是 headline 或 abstract 中逐字连续出现的最短充分片段。没有满足定义的 framing 时返回空数组。
+
+二、factual_calibration
+
+目的只是核对文章中可由 economic_reference 覆盖的经济事实或方向，不评价文章全部事实。
+
+- consistent：至少一个明确可核对的核心主张与同一指标、同一时期的参考数据一致，且没有重要冲突。
+- mixed：有多个可核对主张，其中既有一致也有冲突，或只有部分一致。
+- inconsistent：至少一个核心、明确且可核对的主张与同一指标、同一时期的参考数据明显冲突。
+- not_assessable：文章没有可由参考表直接核对的主张，时期或指标无法匹配，或参考表不足以可靠判断。
+
+economic_reference 是截至 2026-10-14 下载的当前修订值，不是历史实时 vintage；observation period 也不等于 publication date。只有文章明确谈到相同指标和可匹配时期时才可判 consistent、mixed 或 inconsistent。不得仅凭当前修订值否定当时可能基于初值的报道；这类情况应为 not_assessable，并在 note 中说明限制。不得把缺失数据当作 0。
+
+可用参考指标仅包括：密歇根消费者信心及分项、U-3 失业率、U-6 劳动力利用不足、PCE 价格指数及同比通胀、实际可支配个人收入、实际 GDP 及季度/同比增速。其他事实一律不能借此表校准。
+
+factual_calibration.claim_evidence 必须是 headline 或 abstract 中逐字连续出现的片段。reference_matches 只列真正用于判断的指标；not_assessable 时 claim_evidence 为空、reference_matches 为空。
+
+严格按 JSON schema 输出，不生成额外解释。

@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-15T16:24:17.696721+00:00",
+  "requested": 20,
+  "successful_unique": 19,
+  "failed_records": 1,
+  "model": "gpt-6-luna",
+  "relevance": {
+    "irrelevant": 6,
+    "relevant": 13
+  },
+  "us_scope": {
+    "explicit": 14,
+    "implicit": 2,
+    "not_us": 3
+  },
+  "overall_tone": {
+    "None": 6,
+    "negative": 8,
+    "neutral": 2,
+    "positive": 1,
+    "mixed": 2
+  },
+  "primary_topic": {
+    "none": 6,
+    "consumption": 1,
+    "economic_policy": 5,
+    "income_purchasing_power": 1,
+    "growth_outlook": 1,
+    "housing": 3,
+    "employment": 2
+  },
+  "needs_review": {
+    "False": 18,
+    "True": 1
+  },
+  "frames": {
+    "future_risk": 3,
+    "household_hardship": 2,
+    "unequal_outcomes": 2
+  },
+  "validation_issues": {
+    "evidence_not_exact_substring": 1
+  },
+  "usage": {
+    "input_tokens": 103585,
+    "output_tokens": 4060,
+    "total_tokens": 107645,
+    "cached_tokens": 95292,
+    "cache_write_tokens": 8236
+  }
+}

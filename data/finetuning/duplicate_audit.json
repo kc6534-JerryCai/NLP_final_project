@@ -1,0 +1,15 @@
+{
+  "method": "exact normalized title+abstract plus 64-permutation MinHash candidates and word-trigram Jaccard",
+  "candidate_pair_count": 125,
+  "near_duplicate_pair_count": 1,
+  "multirow_group_count": 1,
+  "rows_in_multirow_groups": 2,
+  "largest_group_size": 2,
+  "near_duplicate_pairs": [
+    {
+      "left_article_id": "nyt://interactive/e90dd4f1-190f-54c5-a09a-e48e4d3fbee1",
+      "right_article_id": "nyt://interactive/fe51b9df-7485-5b3a-8d46-9b02dc2d1d87",
+      "jaccard": 1.0
+    }
+  ]
+}

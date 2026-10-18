@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Monitoring dashboard for US consumer sentiment, economic fundamentals, and media narratives ahead of the 2026 midterm elections."
+    />
+    <meta name="theme-color" content="#f4f0e8" />
+    <title>US Economic Perception Monitor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to dashboard</a>
+
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Dashboard navigation">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div>
+            <strong>Perception Monitor</strong>
+            <small>AI Applications in Finance</small>
+          </div>
+        </div>
+
+        <nav class="section-nav">
+          <a class="active" href="#overview"><span>01</span> Overview</a>
+          <a href="#sentiment"><span>02</span> Sentiment gap</a>
+          <a href="#media"><span>03</span> Media signals</a>
+          <a href="#events"><span>04</span> Releases</a>
+          <a href="#diagnostics"><span>05</span> Diagnostics</a>
+          <a href="#data-health"><span>06</span> Data health</a>
+        </nav>
+
+        <div class="sidebar-spacer"></div>
+
+        <div class="cutoff-card">
+          <div class="eyebrow">Monitoring cutoff</div>
+          <strong>14 Oct 2026</strong>
+          <p>Prospective window · 20 days to Election Day</p>
+          <div class="cutoff-track"><span></span></div>
+          <div class="cutoff-labels"><span>Jan</span><span>Nov 03</span></div>
+        </div>
+
+        <button class="method-button" id="open-methodology" type="button">
+          <span>Methodology &amp; definitions</span>
+          <span aria-hidden="true">↗</span>
+        </button>
+      </aside>
+
+      <main id="main-content" class="main-content">
+        <header id="overview" class="page-header">
+          <div>
+            <div class="eyebrow green">2026 MIDTERM ECONOMIC SIGNALS</div>
+            <h1>US Economic Perception Monitor</h1>
+            <p class="dek">
+              Tracking where measured conditions, consumer sentiment, and economic news
+              narratives move together — and where they do not.
+            </p>
+          </div>
+          <div class="header-meta">
+            <span class="status-pill"><i></i> Monitoring active</span>
+            <span class="date-pill">Data through <strong>Oct 2026</strong></span>
+          </div>
+        </header>
+
+        <section class="kpi-grid" aria-label="Latest indicators">
+          <article class="kpi-card hero-kpi">
+            <div class="kpi-topline"><span>Consumer sentiment</span><span class="badge warn">PRELIM.</span></div>
+            <div class="kpi-value" id="kpi-sentiment">—</div>
+            <div class="kpi-comparison" id="kpi-sentiment-change">—</div>
+            <div class="kpi-footer">
+              <span>Economic model</span><strong id="kpi-prediction">—</strong>
+            </div>
+          </article>
+
+          <article class="kpi-card">
+            <div class="kpi-topline"><span>Sentiment gap</span><span class="info-dot" title="Observed minus economic-only prediction">i</span></div>
+            <div class="kpi-value" id="kpi-gap">—</div>
+            <div class="kpi-comparison" id="kpi-gap-note">—</div>
+            <div class="mini-range"><span id="kpi-gap-range"></span></div>
+          </article>
+
+          <article class="kpi-card">
+            <div class="kpi-topline"><span>Media tone index</span><span class="badge partial">PARTIAL</span></div>
+            <div class="kpi-value" id="kpi-tone">—</div>
+            <div class="kpi-comparison" id="kpi-tone-note">—</div>
+            <div class="tone-spectrum" aria-hidden="true"><span></span></div>
+          </article>
+
+          <article class="kpi-card verdict-card">
+            <div class="kpi-topline"><span>Evidence verdict</span><span class="badge neutral">CAUSAL</span></div>
+            <div class="verdict"><i></i><strong>Not identified</strong></div>
+            <p>Media adds almost no out-of-sample accuracy; the IV first stage is weak.</p>
+            <button type="button" class="text-button" data-scroll-to="diagnostics">See diagnostics <span>→</span></button>
+          </article>
+        </section>
+
+        <div class="notice-strip" role="note">
+          <span class="notice-icon" aria-hidden="true">!</span>
+          <p><strong>Read October carefully.</strong> Michigan is preliminary, media coverage ends Oct 4, and several macro releases are not yet available.</p>
+          <button type="button" data-scroll-to="data-health">View gaps</button>
+        </div>
+
+        <section id="sentiment" class="section-block">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow">CORE MONITOR</div>
+              <h2>Sentiment versus the economic baseline</h2>
+            </div>
+            <div class="range-control" role="group" aria-label="Chart date range">
+              <button type="button" data-range="12">12M</button>
+              <button type="button" class="active" data-range="38">Election window</button>
+              <button type="button" data-range="all">Since 2010</button>
+            </div>
+          </div>
+
+          <div class="analysis-grid">
+            <article class="panel chart-panel wide-panel">
+              <div class="panel-header stack-mobile">
+                <div>
+                  <h3>Observed &amp; predicted sentiment</h3>
+                  <p>Economic-only prediction interval is shown for the held-out forecast window.</p>
+                </div>
+                <div class="control-row">
+                  <div class="segmented" id="outcome-control" role="group" aria-label="Sentiment outcome">
+                    <button type="button" class="active" data-outcome="michigan_sentiment">Headline</button>
+                    <button type="button" data-outcome="michigan_current_conditions">Current</button>
+                    <button type="button" data-outcome="michigan_expectations">Expectations</button>
+                  </div>
+                </div>
+              </div>
+              <div class="chart-legend" id="sentiment-legend">
+                <button type="button" class="legend-item observed active" data-model="observed"><i></i>Observed</button>
+                <button type="button" class="legend-item economic active" data-model="economic"><i></i>Economic baseline</button>
+                <button type="button" class="legend-item media" data-model="media"><i></i>+ Media</button>
+                <button type="button" class="legend-item full" data-model="full"><i></i>+ Full controls</button>
+                <span class="legend-item interval"><i></i>95% prediction interval</span>
+              </div>
+              <div id="sentiment-chart" class="chart" role="img" aria-label="Consumer sentiment observed and predicted over time"></div>
+              <div class="chart-caption">
+                <span><i class="key-dot preliminary"></i> October 2026 is preliminary</span>
+                <span>Holdout begins Aug 2023 · expanding-window forecasts</span>
+              </div>
+            </article>
+
+            <article class="panel insight-panel">
+              <div class="panel-header">
+                <div>
+                  <h3>Latest signal</h3>
+                  <p>October 2026 · headline index</p>
+                </div>
+                <span class="badge warn">WATCH</span>
+              </div>
+              <div class="signal-number"><span id="signal-gap">—</span><small>points</small></div>
+              <h4>Below the economic-only prediction</h4>
+              <p id="signal-copy">—</p>
+              <div class="signal-band">
+                <div class="signal-band-labels"><span id="signal-low">—</span><span>prediction interval</span><span id="signal-high">—</span></div>
+                <div class="signal-band-track"><span id="signal-marker"></span></div>
+              </div>
+              <div class="interpretation-rule">
+                <span>Interpretation rule</span>
+                <p>A negative residual is unexplained pessimism under the model — not proof of bias.</p>
+              </div>
+            </article>
+          </div>
+
+          <article class="panel gap-panel">
+            <div class="panel-header">
+              <div>
+                <h3>The sentiment gap</h3>
+                <p>Observed minus economic-only out-of-sample prediction</p>
+              </div>
+              <div class="zero-key"><span></span> Model baseline</div>
+            </div>
+            <div id="gap-chart" class="chart compact-chart" role="img" aria-label="Sentiment gap by month"></div>
+          </article>
+        </section>
+
+        <section id="media" class="section-block">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow">NARRATIVE LAYER</div>
+              <h2>What the economic news is emphasizing</h2>
+            </div>
+            <span class="source-chip">NYT metadata · relevance-aware sample</span>
+          </div>
+
+          <div class="analysis-grid media-grid">
+            <article class="panel chart-panel wide-panel">
+              <div class="panel-header stack-mobile">
+                <div>
+                  <h3 id="media-chart-title">Media tone index</h3>
+                  <p id="media-chart-subtitle">Positive share minus negative share, scaled −100 to +100.</p>
+                </div>
+                <div class="segmented" id="media-metric-control" role="group" aria-label="Media metric">
+                  <button type="button" class="active" data-media-metric="tone">Tone</button>
+                  <button type="button" data-media-metric="frame">Framing</button>
+                  <button type="button" data-media-metric="salience">Salience</button>
+                  <button type="button" data-media-metric="calibration">Calibration</button>
+                </div>
+              </div>
+              <div id="media-chart" class="chart" role="img" aria-label="Media metric over time"></div>
+              <div class="chart-caption">
+                <span id="media-chart-definition">Higher values mean more positive language.</span>
+                <span id="media-chart-sample">—</span>
+              </div>
+            </article>
+
+            <article class="panel snapshot-panel">
+              <div class="panel-header">
+                <div>
+                  <h3>October narrative snapshot</h3>
+                  <p>Model-relevant items · partial month</p>
+                </div>
+                <strong id="snapshot-n">n=—</strong>
+              </div>
+
+              <div class="snapshot-section">
+                <div class="snapshot-title"><span>Tone</span><strong id="tone-index-label">—</strong></div>
+                <div class="stack-bar tone-bar" id="tone-stack" aria-label="Tone distribution"></div>
+                <div class="stack-labels"><span>Negative</span><span>Neutral</span><span>Positive</span></div>
+              </div>
+
+              <div class="snapshot-section">
+                <div class="snapshot-title"><span>Selection &amp; salience</span><small>primary topic share</small></div>
+                <div id="topic-bars" class="bar-list"></div>
+              </div>
+
+              <div class="snapshot-section">
+                <div class="snapshot-title"><span>Framing</span><small>multi-label incidence</small></div>
+                <div id="frame-bars" class="bar-list compact-bars"></div>
+              </div>
+
+              <div class="calibration-box">
+                <div><span>Claims assessable</span><strong id="calibration-assessable">—</strong></div>
+                <div><span>Consistent if assessed</span><strong id="calibration-consistent">—</strong></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="events" class="section-block">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow">RELEASE TRACKER</div>
+              <h2>Relevant releases &amp; threshold events</h2>
+            </div>
+            <span class="method-tag">Rare 24-month threshold rule</span>
+          </div>
+          <article class="panel event-panel">
+            <div class="event-timeline" id="event-timeline"></div>
+            <div class="event-note">
+              <strong>Why these events?</strong>
+              <p>Round-number crossings can increase news value, but they may also affect sentiment directly. They are exploratory instruments, not clean natural experiments.</p>
+            </div>
+          </article>
+        </section>
+
+        <section id="diagnostics" class="section-block">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow">MODEL CHECK</div>
+              <h2>Prediction and causal diagnostics</h2>
+            </div>
+            <span class="badge neutral">OBSERVATIONAL</span>
+          </div>
+
+          <div class="diagnostic-grid">
+            <article class="panel diagnostic-card featured-diagnostic">
+              <div class="diagnostic-icon">Δ</div>
+              <span>Media forecast lift</span>
+              <strong id="diag-lift">—</strong>
+              <p>RMSE improvement versus economic-only OLS</p>
+              <div class="metric-comparison"><span id="diag-rmse-econ">—</span><i></i><span id="diag-rmse-media">—</span></div>
+            </article>
+            <article class="panel diagnostic-card">
+              <div class="diagnostic-icon">β</div>
+              <span>Primary media coefficient</span>
+              <strong id="diag-beta">—</strong>
+              <p id="diag-beta-ci">—</p>
+              <div class="p-value" id="diag-beta-p">—</div>
+            </article>
+            <article class="panel diagnostic-card">
+              <div class="diagnostic-icon">◫</div>
+              <span>Prediction interval coverage</span>
+              <strong id="diag-coverage">—</strong>
+              <p>38 held-out headline forecasts</p>
+              <div class="progress-meter"><span id="diag-coverage-bar"></span></div>
+            </article>
+            <article class="panel diagnostic-card risk-card">
+              <div class="diagnostic-icon">IV</div>
+              <span>Causal identification</span>
+              <strong>Weak first stage</strong>
+              <p id="diag-iv">—</p>
+              <div class="p-value red">Anderson–Rubin p = 0.421</div>
+            </article>
+          </div>
+
+          <article class="panel comparison-panel">
+            <div class="panel-header">
+              <div>
+                <h3>Forecast model comparison</h3>
+                <p>Headline index · Aug 2023–Oct 2026 · lower RMSE is better</p>
+              </div>
+              <span class="badge neutral">38 FORECASTS</span>
+            </div>
+            <div id="model-comparison" class="model-comparison"></div>
+            <p class="panel-footnote">The naïve last-value forecast beats every regression specification in this holdout. Media alone changes OLS RMSE by less than one quarter of one percent.</p>
+          </article>
+        </section>
+
+        <section id="data-health" class="section-block">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow">AUDIT LAYER</div>
+              <h2>Source composition, validation &amp; missingness</h2>
+            </div>
+            <button class="download-button" id="download-snapshot" type="button">Download snapshot <span>↓</span></button>
+          </div>
+
+          <div class="health-grid">
+            <article class="panel health-card source-card">
+              <div class="panel-header">
+                <div><h3>Corpus composition</h3><p>Cleaned economic-news collection</p></div>
+                <strong id="corpus-total">—</strong>
+              </div>
+              <div class="source-visual">
+                <div class="donut single-source"><span>100%<small>NYT</small></span></div>
+                <div class="source-list">
+                  <div><i class="nyt"></i><span>New York Times</span><strong>100%</strong></div>
+                  <div class="missing-source"><i></i><span>Local news</span><strong>Missing</strong></div>
+                  <div class="missing-source"><i></i><span>Social media</span><strong>Missing</strong></div>
+                </div>
+              </div>
+              <div class="warning-box"><span>!</span><p>Current source concentration prevents broad claims about “the media” or population exposure.</p></div>
+            </article>
+
+            <article class="panel health-card validation-card">
+              <div class="panel-header"><div><h3>AI measurement</h3><p>Held-out agreement with GPT labels</p></div><span class="badge partial">NOT HUMAN GOLD</span></div>
+              <div class="validation-metrics">
+                <div><span>Topic accuracy</span><strong id="ai-topic-accuracy">—</strong><small id="ai-topic-f1">—</small></div>
+                <div><span>Tone accuracy</span><strong id="ai-tone-accuracy">—</strong><small id="ai-tone-f1">—</small></div>
+                <div><span>Cross-model tone agreement</span><strong id="ai-tone-agreement">—</strong><small>DeepSeek ↔ T5</small></div>
+              </div>
+              <div class="pending-row"><i></i><span>Two independent human annotators (≥300 items)</span><strong>Pending</strong></div>
+            </article>
+
+            <article class="panel health-card missingness-card">
+              <div class="panel-header"><div><h3>Release availability</h3><p>Latest observation by series</p></div><span class="badge warn">MIXED VINTAGES</span></div>
+              <div id="missingness-grid" class="missingness-grid"></div>
+              <p class="panel-footnote">GDP is quarterly and is never interpolated into artificial monthly observations. Forecast timing uses a conservative release-date proxy.</p>
+            </article>
+          </div>
+
+          <article class="limitations-panel">
+            <div>
+              <span class="limitations-index">06</span>
+              <div><div class="eyebrow">READ BEFORE INTERPRETING</div><h3>Limits are part of the result</h3></div>
+            </div>
+            <ul id="limitations-list"></ul>
+          </article>
+        </section>
+
+        <footer class="page-footer">
+          <div><strong>US Economic Perception Monitor</strong><span>Course project · AI Applications in Finance</span></div>
+          <p>Public or appropriately licensed data · No claim of media causality · Reproducible static build</p>
+        </footer>
+      </main>
+    </div>
+
+    <dialog id="methodology-dialog" class="methodology-dialog">
+      <div class="dialog-header">
+        <div><div class="eyebrow">METHOD NOTES</div><h2>How to read this dashboard</h2></div>
+        <button type="button" id="close-methodology" aria-label="Close methodology">×</button>
+      </div>
+      <div class="dialog-body">
+        <section><span>01</span><div><h3>Sentiment gap</h3><p>Observed Michigan headline sentiment minus the expanding-window, economic-only OLS forecast. The shaded band is a conformal prediction interval based only on earlier one-step errors.</p></div></section>
+        <section><span>02</span><div><h3>Media measures</h3><p>Tone is positive share minus negative share. Salience uses primary-topic shares. Framing is multi-label incidence. Calibration is reported only when a numerical claim can be compared with the reference workbook.</p></div></section>
+        <section><span>03</span><div><h3>Timing</h3><p>Monthly analysis begins in January 2010. Forecast evaluation begins in August 2023. Quarterly GDP remains quarterly and enters forecasts only after a conservative proxy release date.</p></div></section>
+        <section><span>04</span><div><h3>Causal language</h3><p>Associations, prediction gains, and threshold-IV estimates are shown separately. Weak instruments, reverse causality, shared shocks, and exposure uncertainty prevent a national causal claim.</p></div></section>
+      </div>
+      <div class="dialog-footer"><span>Last analytical refresh: 16 Oct 2026</span><button type="button" id="close-methodology-footer">Done</button></div>
+    </dialog>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

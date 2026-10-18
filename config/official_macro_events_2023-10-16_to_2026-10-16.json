@@ -1,0 +1,905 @@
+[
+  {
+    "event_id": "PCE_2023-09",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2023-09",
+    "release_datetime_et": "2023-10-27 08:30:00",
+    "official_url": "https://www.bea.gov/news/2023/personal-income-and-outlays-september-2023"
+  },
+  {
+    "event_id": "FOMC_2023-11-01",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2023-11-01",
+    "release_datetime_et": "2023-11-01 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231101a.htm"
+  },
+  {
+    "event_id": "EMPLOYMENT_2023-10",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2023-10",
+    "release_datetime_et": "2023-11-03 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_11032023.htm"
+  },
+  {
+    "event_id": "CPI_2023-10",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2023-10",
+    "release_datetime_et": "2023-11-14 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_11142023.htm"
+  },
+  {
+    "event_id": "PCE_2023-10",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2023-10",
+    "release_datetime_et": "2023-11-30 08:30:00",
+    "official_url": "https://www.bea.gov/news/2023/personal-income-and-outlays-october-2023"
+  },
+  {
+    "event_id": "EMPLOYMENT_2023-11",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2023-11",
+    "release_datetime_et": "2023-12-08 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_12082023.htm"
+  },
+  {
+    "event_id": "CPI_2023-11",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2023-11",
+    "release_datetime_et": "2023-12-12 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_12122023.htm"
+  },
+  {
+    "event_id": "FOMC_2023-12-13",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2023-12-13",
+    "release_datetime_et": "2023-12-13 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231213a.htm"
+  },
+  {
+    "event_id": "PCE_2023-11",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2023-11",
+    "release_datetime_et": "2023-12-22 08:30:00",
+    "official_url": "https://www.bea.gov/news/2023/personal-income-and-outlays-november-2023"
+  },
+  {
+    "event_id": "EMPLOYMENT_2023-12",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2023-12",
+    "release_datetime_et": "2024-01-05 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_01052024.htm"
+  },
+  {
+    "event_id": "CPI_2023-12",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2023-12",
+    "release_datetime_et": "2024-01-11 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_01112024.htm"
+  },
+  {
+    "event_id": "PCE_2023-12",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2023-12",
+    "release_datetime_et": "2024-01-26 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-december-2023"
+  },
+  {
+    "event_id": "FOMC_2024-01-31",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2024-01-31",
+    "release_datetime_et": "2024-01-31 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240131a.htm"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-01",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-01",
+    "release_datetime_et": "2024-02-02 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_02022024.htm"
+  },
+  {
+    "event_id": "CPI_2024-01",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-01",
+    "release_datetime_et": "2024-02-13 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_02132024.htm"
+  },
+  {
+    "event_id": "PCE_2024-01",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-01",
+    "release_datetime_et": "2024-02-28 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-january-2024"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-02",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-02",
+    "release_datetime_et": "2024-03-08 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_03082024.htm"
+  },
+  {
+    "event_id": "CPI_2024-02",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-02",
+    "release_datetime_et": "2024-03-12 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_03122024.htm"
+  },
+  {
+    "event_id": "FOMC_2024-03-20",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2024-03-20",
+    "release_datetime_et": "2024-03-20 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240320a.htm"
+  },
+  {
+    "event_id": "PCE_2024-02",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-02",
+    "release_datetime_et": "2024-03-29 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-february-2024"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-03",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-03",
+    "release_datetime_et": "2024-04-05 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_04052024.htm"
+  },
+  {
+    "event_id": "CPI_2024-03",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-03",
+    "release_datetime_et": "2024-04-10 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_04102024.htm"
+  },
+  {
+    "event_id": "PCE_2024-03",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-03",
+    "release_datetime_et": "2024-04-26 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-march-2024"
+  },
+  {
+    "event_id": "FOMC_2024-05-01",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2024-05-01",
+    "release_datetime_et": "2024-05-01 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240501a.htm"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-04",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-04",
+    "release_datetime_et": "2024-05-03 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_05032024.htm"
+  },
+  {
+    "event_id": "CPI_2024-04",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-04",
+    "release_datetime_et": "2024-05-15 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_05152024.htm"
+  },
+  {
+    "event_id": "PCE_2024-04",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-04",
+    "release_datetime_et": "2024-05-31 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-april-2024"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-05",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-05",
+    "release_datetime_et": "2024-06-07 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_06072024.htm"
+  },
+  {
+    "event_id": "CPI_2024-05",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-05",
+    "release_datetime_et": "2024-06-12 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_06122024.htm"
+  },
+  {
+    "event_id": "FOMC_2024-06-12",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2024-06-12",
+    "release_datetime_et": "2024-06-12 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240612a.htm"
+  },
+  {
+    "event_id": "PCE_2024-05",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-05",
+    "release_datetime_et": "2024-06-28 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-may-2024"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-06",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-06",
+    "release_datetime_et": "2024-07-05 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_07052024.htm"
+  },
+  {
+    "event_id": "CPI_2024-06",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-06",
+    "release_datetime_et": "2024-07-11 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_07112024.htm"
+  },
+  {
+    "event_id": "PCE_2024-06",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-06",
+    "release_datetime_et": "2024-07-26 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-june-2024"
+  },
+  {
+    "event_id": "FOMC_2024-07-31",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2024-07-31",
+    "release_datetime_et": "2024-07-31 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-07",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-07",
+    "release_datetime_et": "2024-08-02 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_08022024.htm"
+  },
+  {
+    "event_id": "CPI_2024-07",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-07",
+    "release_datetime_et": "2024-08-14 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_08142024.htm"
+  },
+  {
+    "event_id": "PCE_2024-07",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-07",
+    "release_datetime_et": "2024-08-30 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-july-2024"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-08",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-08",
+    "release_datetime_et": "2024-09-06 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_09062024.htm"
+  },
+  {
+    "event_id": "CPI_2024-08",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-08",
+    "release_datetime_et": "2024-09-11 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_09112024.htm"
+  },
+  {
+    "event_id": "FOMC_2024-09-18",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2024-09-18",
+    "release_datetime_et": "2024-09-18 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm"
+  },
+  {
+    "event_id": "PCE_2024-08",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-08",
+    "release_datetime_et": "2024-09-27 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-august-2024"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-09",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-09",
+    "release_datetime_et": "2024-10-04 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_10042024.htm"
+  },
+  {
+    "event_id": "CPI_2024-09",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-09",
+    "release_datetime_et": "2024-10-10 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_10102024.htm"
+  },
+  {
+    "event_id": "PCE_2024-09",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-09",
+    "release_datetime_et": "2024-10-31 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-september-2024"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-10",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-10",
+    "release_datetime_et": "2024-11-01 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_11012024.htm"
+  },
+  {
+    "event_id": "FOMC_2024-11-07",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2024-11-07",
+    "release_datetime_et": "2024-11-07 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm"
+  },
+  {
+    "event_id": "CPI_2024-10",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-10",
+    "release_datetime_et": "2024-11-13 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_11132024.htm"
+  },
+  {
+    "event_id": "PCE_2024-10",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-10",
+    "release_datetime_et": "2024-11-27 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-october-2024"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-11",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-11",
+    "release_datetime_et": "2024-12-06 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_12062024.htm"
+  },
+  {
+    "event_id": "CPI_2024-11",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-11",
+    "release_datetime_et": "2024-12-11 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_12112024.htm"
+  },
+  {
+    "event_id": "FOMC_2024-12-18",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2024-12-18",
+    "release_datetime_et": "2024-12-18 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm"
+  },
+  {
+    "event_id": "PCE_2024-11",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-11",
+    "release_datetime_et": "2024-12-20 08:30:00",
+    "official_url": "https://www.bea.gov/news/2024/personal-income-and-outlays-november-2024"
+  },
+  {
+    "event_id": "EMPLOYMENT_2024-12",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2024-12",
+    "release_datetime_et": "2025-01-10 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_01102025.htm"
+  },
+  {
+    "event_id": "CPI_2024-12",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2024-12",
+    "release_datetime_et": "2025-01-15 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_01152025.htm"
+  },
+  {
+    "event_id": "FOMC_2025-01-29",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2025-01-29",
+    "release_datetime_et": "2025-01-29 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250129a.htm"
+  },
+  {
+    "event_id": "PCE_2024-12",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2024-12",
+    "release_datetime_et": "2025-01-31 08:30:00",
+    "official_url": "https://www.bea.gov/news/2025/personal-income-and-outlays-december-2024"
+  },
+  {
+    "event_id": "EMPLOYMENT_2025-01",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2025-01",
+    "release_datetime_et": "2025-02-07 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_02072025.htm"
+  },
+  {
+    "event_id": "CPI_2025-01",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2025-01",
+    "release_datetime_et": "2025-02-12 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_02122025.htm"
+  },
+  {
+    "event_id": "PCE_2025-01",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2025-01",
+    "release_datetime_et": "2025-02-28 08:30:00",
+    "official_url": "https://www.bea.gov/news/2025/personal-income-and-outlays-january-2025"
+  },
+  {
+    "event_id": "EMPLOYMENT_2025-02",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2025-02",
+    "release_datetime_et": "2025-03-07 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_03072025.htm"
+  },
+  {
+    "event_id": "CPI_2025-02",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2025-02",
+    "release_datetime_et": "2025-03-12 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_03122025.htm"
+  },
+  {
+    "event_id": "FOMC_2025-03-19",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2025-03-19",
+    "release_datetime_et": "2025-03-19 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250319a.htm"
+  },
+  {
+    "event_id": "PCE_2025-02",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2025-02",
+    "release_datetime_et": "2025-03-28 08:30:00",
+    "official_url": "https://www.bea.gov/news/2025/personal-income-and-outlays-february-2025"
+  },
+  {
+    "event_id": "EMPLOYMENT_2025-03",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2025-03",
+    "release_datetime_et": "2025-04-04 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_04042025.htm"
+  },
+  {
+    "event_id": "CPI_2025-03",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2025-03",
+    "release_datetime_et": "2025-04-10 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_04102025.htm"
+  },
+  {
+    "event_id": "PCE_2025-03",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2025-03",
+    "release_datetime_et": "2025-04-30 08:30:00",
+    "official_url": "https://www.bea.gov/news/2025/personal-income-and-outlays-march-2025"
+  },
+  {
+    "event_id": "EMPLOYMENT_2025-04",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2025-04",
+    "release_datetime_et": "2025-05-02 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_05022025.htm"
+  },
+  {
+    "event_id": "FOMC_2025-05-07",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2025-05-07",
+    "release_datetime_et": "2025-05-07 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250507a.htm"
+  },
+  {
+    "event_id": "CPI_2025-04",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2025-04",
+    "release_datetime_et": "2025-05-13 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_05132025.htm"
+  },
+  {
+    "event_id": "PCE_2025-04",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2025-04",
+    "release_datetime_et": "2025-05-30 08:30:00",
+    "official_url": "https://www.bea.gov/news/2025/personal-income-and-outlays-april-2025"
+  },
+  {
+    "event_id": "EMPLOYMENT_2025-05",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2025-05",
+    "release_datetime_et": "2025-06-06 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_06062025.htm"
+  },
+  {
+    "event_id": "CPI_2025-05",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2025-05",
+    "release_datetime_et": "2025-06-11 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_06112025.htm"
+  },
+  {
+    "event_id": "FOMC_2025-06-18",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2025-06-18",
+    "release_datetime_et": "2025-06-18 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250618a.htm"
+  },
+  {
+    "event_id": "PCE_2025-05",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2025-05",
+    "release_datetime_et": "2025-06-27 08:30:00",
+    "official_url": "https://www.bea.gov/news/2025/personal-income-and-outlays-may-2025"
+  },
+  {
+    "event_id": "EMPLOYMENT_2025-06",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2025-06",
+    "release_datetime_et": "2025-07-03 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_07032025.htm"
+  },
+  {
+    "event_id": "CPI_2025-06",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2025-06",
+    "release_datetime_et": "2025-07-15 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_07152025.htm"
+  },
+  {
+    "event_id": "FOMC_2025-07-30",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2025-07-30",
+    "release_datetime_et": "2025-07-30 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250730a.htm"
+  },
+  {
+    "event_id": "PCE_2025-06",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2025-06",
+    "release_datetime_et": "2025-07-31 08:30:00",
+    "official_url": "https://www.bea.gov/news/2025/personal-income-and-outlays-june-2025"
+  },
+  {
+    "event_id": "EMPLOYMENT_2025-07",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2025-07",
+    "release_datetime_et": "2025-08-01 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_08012025.htm"
+  },
+  {
+    "event_id": "CPI_2025-07",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2025-07",
+    "release_datetime_et": "2025-08-12 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_08122025.htm"
+  },
+  {
+    "event_id": "PCE_2025-07",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2025-07",
+    "release_datetime_et": "2025-08-29 08:30:00",
+    "official_url": "https://www.bea.gov/news/2025/personal-income-and-outlays-july-2025"
+  },
+  {
+    "event_id": "EMPLOYMENT_2025-08",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2025-08",
+    "release_datetime_et": "2025-09-05 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_09052025.htm"
+  },
+  {
+    "event_id": "CPI_2025-08",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2025-08",
+    "release_datetime_et": "2025-09-11 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_09112025.htm"
+  },
+  {
+    "event_id": "FOMC_2025-09-17",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2025-09-17",
+    "release_datetime_et": "2025-09-17 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250917a.htm"
+  },
+  {
+    "event_id": "PCE_2025-08",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2025-08",
+    "release_datetime_et": "2025-09-26 08:30:00",
+    "official_url": "https://www.bea.gov/news/2025/personal-income-and-outlays-august-2025"
+  },
+  {
+    "event_id": "CPI_2025-09",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2025-09",
+    "release_datetime_et": "2025-10-24 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_10242025.htm"
+  },
+  {
+    "event_id": "FOMC_2025-10-29",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2025-10-29",
+    "release_datetime_et": "2025-10-29 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm"
+  },
+  {
+    "event_id": "EMPLOYMENT_2025-09",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2025-09",
+    "release_datetime_et": "2025-11-20 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_11202025.htm"
+  },
+  {
+    "event_id": "PCE_2025-09",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2025-09",
+    "release_datetime_et": "2025-12-05 10:00:00",
+    "official_url": "https://www.bea.gov/news/2025/personal-income-and-outlays-september-2025"
+  },
+  {
+    "event_id": "FOMC_2025-12-10",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2025-12-10",
+    "release_datetime_et": "2025-12-10 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm"
+  },
+  {
+    "event_id": "EMPLOYMENT_2025-11",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2025-11",
+    "release_datetime_et": "2025-12-16 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_12162025.htm"
+  },
+  {
+    "event_id": "CPI_2025-11",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2025-11",
+    "release_datetime_et": "2025-12-18 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_12182025.htm"
+  },
+  {
+    "event_id": "EMPLOYMENT_2025-12",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2025-12",
+    "release_datetime_et": "2026-01-09 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_01092026.htm"
+  },
+  {
+    "event_id": "CPI_2025-12",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2025-12",
+    "release_datetime_et": "2026-01-13 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_01132026.htm"
+  },
+  {
+    "event_id": "PCE_2025-10_2025-11",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2025-10;2025-11",
+    "release_datetime_et": "2026-01-22 10:00:00",
+    "official_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-and-november-2025"
+  },
+  {
+    "event_id": "FOMC_2026-01-28",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2026-01-28",
+    "release_datetime_et": "2026-01-28 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm"
+  },
+  {
+    "event_id": "EMPLOYMENT_2026-01",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2026-01",
+    "release_datetime_et": "2026-02-11 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_02112026.htm"
+  },
+  {
+    "event_id": "CPI_2026-01",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2026-01",
+    "release_datetime_et": "2026-02-13 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_02132026.htm"
+  },
+  {
+    "event_id": "PCE_2025-12",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2025-12",
+    "release_datetime_et": "2026-02-20 08:30:00",
+    "official_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-december-2025"
+  },
+  {
+    "event_id": "EMPLOYMENT_2026-02",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2026-02",
+    "release_datetime_et": "2026-03-06 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_03062026.htm"
+  },
+  {
+    "event_id": "CPI_2026-02",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2026-02",
+    "release_datetime_et": "2026-03-11 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_03112026.htm"
+  },
+  {
+    "event_id": "PCE_2026-01",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2026-01",
+    "release_datetime_et": "2026-03-13 08:30:00",
+    "official_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-january-2026"
+  },
+  {
+    "event_id": "FOMC_2026-03-18",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2026-03-18",
+    "release_datetime_et": "2026-03-18 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm"
+  },
+  {
+    "event_id": "EMPLOYMENT_2026-03",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2026-03",
+    "release_datetime_et": "2026-04-03 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_04032026.htm"
+  },
+  {
+    "event_id": "PCE_2026-02",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2026-02",
+    "release_datetime_et": "2026-04-09 08:30:00",
+    "official_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-february-2026"
+  },
+  {
+    "event_id": "CPI_2026-03",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2026-03",
+    "release_datetime_et": "2026-04-10 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_04102026.htm"
+  },
+  {
+    "event_id": "FOMC_2026-04-29",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2026-04-29",
+    "release_datetime_et": "2026-04-29 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm"
+  },
+  {
+    "event_id": "PCE_2026-03",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2026-03",
+    "release_datetime_et": "2026-04-30 08:30:00",
+    "official_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-march-2026"
+  },
+  {
+    "event_id": "EMPLOYMENT_2026-04",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2026-04",
+    "release_datetime_et": "2026-05-08 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_05082026.htm"
+  },
+  {
+    "event_id": "CPI_2026-04",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2026-04",
+    "release_datetime_et": "2026-05-12 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_05122026.htm"
+  },
+  {
+    "event_id": "PCE_2026-04",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2026-04",
+    "release_datetime_et": "2026-05-28 08:30:00",
+    "official_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-april-2026"
+  },
+  {
+    "event_id": "EMPLOYMENT_2026-05",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2026-05",
+    "release_datetime_et": "2026-06-05 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm"
+  },
+  {
+    "event_id": "CPI_2026-05",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2026-05",
+    "release_datetime_et": "2026-06-10 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_06102026.htm"
+  },
+  {
+    "event_id": "FOMC_2026-06-17",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2026-06-17",
+    "release_datetime_et": "2026-06-17 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+  },
+  {
+    "event_id": "PCE_2026-05",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2026-05",
+    "release_datetime_et": "2026-06-25 08:30:00",
+    "official_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-may-2026"
+  },
+  {
+    "event_id": "EMPLOYMENT_2026-06",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2026-06",
+    "release_datetime_et": "2026-07-02 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_07022026.htm"
+  },
+  {
+    "event_id": "CPI_2026-06",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2026-06",
+    "release_datetime_et": "2026-07-14 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_07142026.htm"
+  },
+  {
+    "event_id": "FOMC_2026-07-29",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2026-07-29",
+    "release_datetime_et": "2026-07-29 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+  },
+  {
+    "event_id": "PCE_2026-06",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2026-06",
+    "release_datetime_et": "2026-07-30 08:30:00",
+    "official_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026"
+  },
+  {
+    "event_id": "EMPLOYMENT_2026-07",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2026-07",
+    "release_datetime_et": "2026-08-07 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_08072026.htm"
+  },
+  {
+    "event_id": "CPI_2026-07",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2026-07",
+    "release_datetime_et": "2026-08-12 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_08122026.htm"
+  },
+  {
+    "event_id": "PCE_2026-07",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2026-07",
+    "release_datetime_et": "2026-08-26 08:30:00",
+    "official_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+  },
+  {
+    "event_id": "EMPLOYMENT_2026-08",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2026-08",
+    "release_datetime_et": "2026-09-04 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm"
+  },
+  {
+    "event_id": "CPI_2026-08",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2026-08",
+    "release_datetime_et": "2026-09-11 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm"
+  },
+  {
+    "event_id": "FOMC_2026-09-16",
+    "event_type": "FOMC_RATE_DECISION",
+    "reference_period": "2026-09-16",
+    "release_datetime_et": "2026-09-16 14:00:00",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+  },
+  {
+    "event_id": "PCE_2026-08",
+    "event_type": "PCE_RELEASE",
+    "reference_period": "2026-08",
+    "release_datetime_et": "2026-09-30 08:30:00",
+    "official_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026"
+  },
+  {
+    "event_id": "EMPLOYMENT_2026-09",
+    "event_type": "EMPLOYMENT_RELEASE",
+    "reference_period": "2026-09",
+    "release_datetime_et": "2026-10-02 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm"
+  },
+  {
+    "event_id": "CPI_2026-09",
+    "event_type": "CPI_RELEASE",
+    "reference_period": "2026-09",
+    "release_datetime_et": "2026-10-14 08:30:00",
+    "official_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+  }
+]

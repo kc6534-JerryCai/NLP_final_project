@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-15T16:22:38.511542+00:00",
+  "requested": 100,
+  "successful_unique": 99,
+  "failed_records": 1,
+  "model": "gpt-6-luna",
+  "relevance": {
+    "irrelevant": 32,
+    "relevant": 63,
+    "uncertain": 4
+  },
+  "us_scope": {
+    "unclear": 12,
+    "explicit": 69,
+    "implicit": 8,
+    "not_us": 10
+  },
+  "overall_tone": {
+    "None": 37,
+    "neutral": 5,
+    "insufficient_information": 4,
+    "negative": 36,
+    "mixed": 10,
+    "positive": 7
+  },
+  "primary_topic": {
+    "none": 37,
+    "economic_policy": 19,
+    "income_purchasing_power": 8,
+    "household_finance": 4,
+    "employment": 12,
+    "consumption": 1,
+    "growth_outlook": 9,
+    "prices_inflation": 3,
+    "multiple": 3,
+    "housing": 3
+  },
+  "needs_review": {
+    "False": 91,
+    "True": 8
+  },
+  "frames": {
+    "future_risk": 20,
+    "household_hardship": 9,
+    "unequal_outcomes": 6,
+    "economic_resilience": 1,
+    "macro_household_disconnect": 2
+  },
+  "validation_issues": {
+    "evidence_not_exact_substring": 22
+  },
+  "usage": {
+    "input_tokens": 492121,
+    "output_tokens": 19553,
+    "total_tokens": 511674,
+    "cached_tokens": 472458
+  }
+}

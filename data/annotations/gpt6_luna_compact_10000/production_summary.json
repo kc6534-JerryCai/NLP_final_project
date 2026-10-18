@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-10-15T23:31:13.864614+00:00",
+  "model": "gpt-6-luna",
+  "selected_total": 10000,
+  "pilot_unique_included": 200,
+  "production_successful": 9800,
+  "production_failed": 0,
+  "combined_successful": 10000,
+  "combined_missing": 0,
+  "relevance": {
+    "irrelevant": 4102,
+    "relevant": 5662,
+    "uncertain": 236
+  },
+  "primary_topic_relevant_only": {
+    "cost_of_living_income": 420,
+    "economic_policy": 2639,
+    "household_economy": 856,
+    "labor_market": 987,
+    "macro_growth": 760
+  },
+  "tone_relevant_only": {
+    "-1": 1747,
+    "0": 3477,
+    "1": 438
+  },
+  "needs_review": {
+    "False": 9170,
+    "True": 830
+  },
+  "validation_issues": {
+    "article_id_mismatch": 8,
+    "response_trailing_text": 49,
+    "tone_evidence_not_exact_substring": 11,
+    "topic_evidence_not_exact_substring": 18
+  },
+  "normalization": {
+    "article_id_corrected_from_request_manifest": 8,
+    "evidence_text_not_auto_modified": true
+  },
+  "review_queue_count": 907,
+  "usage_pilot_unique": {
+    "input_tokens": 262794,
+    "output_tokens": 17894,
+    "total_tokens": 280688,
+    "cached_tokens": 232986,
+    "cache_write_tokens": 29208
+  },
+  "usage_production": {
+    "input_tokens": 12918077,
+    "output_tokens": 877772,
+    "total_tokens": 13795849,
+    "cached_tokens": 11492864,
+    "cache_write_tokens": 1395813
+  },
+  "usage_all_10000": {
+    "input_tokens": 13180871,
+    "output_tokens": 895666,
+    "total_tokens": 14076537,
+    "cached_tokens": 11725850,
+    "cache_write_tokens": 1425021
+  },
+  "estimated_api_calls": {
+    "pilot_including_repeats_and_parse_retries": 263,
+    "production_including_validation_retries": 10276
+  },
+  "cost_estimate_usd": {
+    "rate_snapshot_date": "2026-10-15",
+    "service_tier": "fast",
+    "official_rate_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+    "final_success_responses_only": 1.492438,
+    "pilot_including_blind_repeats_and_parse_retries_approx": 0.03742,
+    "production_including_validation_retries_approx": 1.541777,
+    "total_run_including_repeats_and_retries_approx": 1.579197,
+    "note": "Retry response usage was not stored separately; retry cost uses each final response's token mix as an approximation."
+  }
+}

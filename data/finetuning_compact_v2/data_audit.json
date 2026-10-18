@@ -1,0 +1,40 @@
+{
+  "created_from": "C:\\Users\\Jerry Cai\\Desktop\\NLP_Final_Assignment\\data\\annotations\\gpt6_luna_compact_10000\\annotations_10000.jsonl",
+  "source_sha256": "88ea82cd776f5a13ff18168bff370b454b8e58a8f93d772e8fec411139c8b247",
+  "seed": 42,
+  "relevant_rows": 5662,
+  "requested_split_sizes": {
+    "train": 4500,
+    "validation": 500,
+    "test": 600,
+    "unused": 62
+  },
+  "actual_split_sizes": {
+    "train": 4500,
+    "validation": 500,
+    "test": 600,
+    "unused": 62
+  },
+  "unique_article_ids": 5662,
+  "near_duplicate_group_count": 5660,
+  "no_cross_split_near_duplicate_groups": true,
+  "input_features": [
+    "headline",
+    "abstract"
+  ],
+  "labels": {
+    "primary_topic": [
+      "cost_of_living_income",
+      "labor_market",
+      "household_economy",
+      "macro_growth",
+      "economic_policy"
+    ],
+    "tone": [
+      "-1",
+      "0",
+      "1"
+    ]
+  },
+  "gpt_label_caveat": "Labels are GPT-generated and are not an independent human gold standard."
+}

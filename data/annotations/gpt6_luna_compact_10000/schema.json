@@ -1,0 +1,82 @@
+{
+  "type": "object",
+  "properties": {
+    "article_id": {
+      "type": "string"
+    },
+    "relevance": {
+      "type": "string",
+      "enum": [
+        "relevant",
+        "irrelevant",
+        "uncertain"
+      ]
+    },
+    "primary_topic": {
+      "anyOf": [
+        {
+          "type": "string",
+          "enum": [
+            "cost_of_living_income",
+            "labor_market",
+            "household_economy",
+            "macro_growth",
+            "economic_policy"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "tone": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "enum": [
+            -1,
+            0,
+            1
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "topic_evidence": {
+      "type": "string"
+    },
+    "tone_evidence": {
+      "type": "string"
+    },
+    "needs_review": {
+      "type": "boolean"
+    },
+    "review_flags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "missing_abstract",
+          "truncated_or_corrupted",
+          "unclear_relevance",
+          "ambiguous_topic",
+          "ambiguous_tone",
+          "headline_abstract_conflict"
+        ]
+      }
+    }
+  },
+  "required": [
+    "article_id",
+    "relevance",
+    "primary_topic",
+    "tone",
+    "topic_evidence",
+    "tone_evidence",
+    "needs_review",
+    "review_flags"
+  ],
+  "additionalProperties": false
+}
