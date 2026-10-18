@@ -7,7 +7,10 @@ __pycache__/
 tmp/
 artifact_workbook/
 models/
-output/
+output/*
+!output/pdf/
+output/pdf/*
+!output/pdf/Economic_Perception_Monitor_Final_Report_Revised.pdf
 outputs/
 *.safetensors
 *.ckpt

@@ -107,6 +107,15 @@ AUTHOR = ParagraphStyle(
     alignment=TA_CENTER,
     textColor=INK,
 )
+STUDENT_INFO = ParagraphStyle(
+    "StudentInfo",
+    fontName="Arial",
+    fontSize=8.2,
+    leading=11,
+    alignment=TA_LEFT,
+    textColor=MUTED,
+    spaceAfter=14,
+)
 H1 = ParagraphStyle(
     "H1",
     fontName="Georgia-Bold",
@@ -522,7 +531,15 @@ def build_pdf(assets: dict[str, Path]) -> None:
     story = []
 
     # Page 1 — cover and abstract
-    story += [Spacer(1, .36 * inch)]
+    story += [
+        P(
+            "student_ID : kc6534<br/>"
+            "github : <link href='https://github.com/kc6534-JerryCai/NLP_final_project' "
+            "color='#0E766E'>https://github.com/kc6534-JerryCai/NLP_final_project</link>",
+            STUDENT_INFO,
+        ),
+        Spacer(1, .04 * inch),
+    ]
     story += [P("ECONOMIC NARRATIVES, CONSUMER SENTIMENT,<br/>AND THE 2026 MIDTERMS", TITLE)]
     story += [P("An AI-assisted measurement, association, forecasting, and causal-diagnostic framework", SUBTITLE)]
     story += [P("Kuanhong Cai<br/>Applications in Finance · Final Project<br/>October 2026", AUTHOR)]
